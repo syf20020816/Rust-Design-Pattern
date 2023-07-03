@@ -1,5 +1,3 @@
-mod lib;
-
 use crate::lib::hunger::enum_impl::{Hunger};
 
 fn main() {

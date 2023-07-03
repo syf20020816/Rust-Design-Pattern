@@ -9,5 +9,10 @@
 //! @description:
 //! ```
 
-
-mod const_impl;
+/// const 实现
+pub mod const_impl;
+/// static 实现
+pub mod static_impl;
+/// enum 实现
+/// >note:这种写法是错误的！
+pub mod enum_impl;

@@ -11,4 +11,4 @@
 
 pub mod hunger;
 pub mod lazy;
-
+pub mod tests;
