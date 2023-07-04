@@ -9,4 +9,7 @@
 //! @description:
 //! ```
 
+///普通的static实现
 pub mod static_impl;
+///双重检查锁
+pub mod double_check_impl;

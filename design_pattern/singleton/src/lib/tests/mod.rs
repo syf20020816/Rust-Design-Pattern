@@ -3,3 +3,4 @@ mod hunger_static;
 mod hunger_enum;
 
 mod lazy_static;
+mod lazy_double_check;

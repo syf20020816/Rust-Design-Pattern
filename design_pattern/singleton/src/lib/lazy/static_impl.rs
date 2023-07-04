@@ -1,4 +1,4 @@
-//! 懒汉式static实现
+//! # 懒汉式static实现
 //!
 //! 其中使用unsafe对static进行修改
 //!

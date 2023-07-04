@@ -1,6 +1,3 @@
-mod lib;
-
-
 use crate::lib::lazy::double_check_impl::{Lazy, INSTANCE};
 use std::thread::spawn;
 
