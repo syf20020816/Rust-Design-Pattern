@@ -1,4 +1,4 @@
 [workspace]
 members = [
-    "singleton", "factory"
+    "singleton", "factory","builder"
 ]

@@ -1,1 +1,3 @@
 mod simple_factory_tests;
+mod factory_method_tests;
+mod abstract_factory_tests;

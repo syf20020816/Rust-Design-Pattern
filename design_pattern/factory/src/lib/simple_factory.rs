@@ -22,48 +22,11 @@
 //! @description:
 //! ```
 
+use crate::lib::{Product, Product1, Product2, ProductEnum};
 use crate::product_impl;
 
-/// 抽象产品
-pub trait Product {
-    fn new(name: &str) -> Self where Self:Sized;
-    fn show(&self) -> ();
-}
-#[macro_export]
-macro_rules! product_impl {
-    ($($T:ident)*) =>($(
-        impl Product for $T{
-            fn new(name:&str)->Self where Self:Sized{
-                $T{
-                    name:String::from(name)
-                }
-            }
-            fn show(&self)->(){
-                println!("{:?}",&self)
-            }
-        }
-    )*)
-}
 
-/// 具体产品1
-#[derive(Debug)]
-pub struct Product1 {
-    name: String,
-}
-
-/// 具体产品2
-#[derive(Debug)]
-pub struct Product2 {
-    name: String,
-}
-
-product_impl! {Product1 Product2}
-
-pub enum ProductEnum {
-    Product1,
-    Product2,
-}
-
+/// 具体工厂
 pub struct SimpleFactory;
 
 impl SimpleFactory {

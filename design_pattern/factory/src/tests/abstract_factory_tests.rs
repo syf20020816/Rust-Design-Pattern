@@ -1,6 +1,3 @@
-mod lib;
-mod tests;
-
 use crate::lib::{Product1Factory, Product1Factory1,AbstractProductFactory};
 
 fn main() {
