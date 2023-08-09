@@ -15,7 +15,15 @@ name = "builder"
 version = "0.1.0"
 
 [[package]]
+name = "composite"
+version = "0.1.0"
+
+[[package]]
 name = "factory"
+version = "0.1.0"
+
+[[package]]
+name = "filter"
 version = "0.1.0"
 
 [[package]]
