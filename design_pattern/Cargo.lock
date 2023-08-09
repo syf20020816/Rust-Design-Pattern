@@ -19,6 +19,14 @@ name = "composite"
 version = "0.1.0"
 
 [[package]]
+name = "decorator"
+version = "0.1.0"
+
+[[package]]
+name = "facade"
+version = "0.1.0"
+
+[[package]]
 name = "factory"
 version = "0.1.0"
 
