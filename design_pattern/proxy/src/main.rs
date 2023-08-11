@@ -1,3 +1,9 @@
+mod lib;
+
+use crate::lib::{DataProxy, RealData, Ref};
+
 fn main() {
-    println!("Hello, world!");
+    let mut instance = DataProxy::new("hello world");
+    let real = instance.get().unwrap();
+    real.show();
 }
