@@ -1,4 +1,5 @@
 [workspace]
 members = [
-    "singleton", "factory", "builder", "prototype", "adapter", "bridge","filter","composite","decorator","facade"
+    "singleton", "factory", "builder", "prototype", "adapter", "bridge","filter","composite","decorator","facade",
+    "flyweight","proxy","chain"
 ]

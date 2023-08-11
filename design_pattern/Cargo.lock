@@ -15,6 +15,10 @@ name = "builder"
 version = "0.1.0"
 
 [[package]]
+name = "chain"
+version = "0.1.0"
+
+[[package]]
 name = "composite"
 version = "0.1.0"
 
@@ -35,7 +39,15 @@ name = "filter"
 version = "0.1.0"
 
 [[package]]
+name = "flyweight"
+version = "0.1.0"
+
+[[package]]
 name = "prototype"
+version = "0.1.0"
+
+[[package]]
+name = "proxy"
 version = "0.1.0"
 
 [[package]]
