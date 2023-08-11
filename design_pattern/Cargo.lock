@@ -19,6 +19,10 @@ name = "chain"
 version = "0.1.0"
 
 [[package]]
+name = "command"
+version = "0.1.0"
+
+[[package]]
 name = "composite"
 version = "0.1.0"
 
@@ -43,6 +47,26 @@ name = "flyweight"
 version = "0.1.0"
 
 [[package]]
+name = "iter"
+version = "0.1.0"
+
+[[package]]
+name = "mediator"
+version = "0.1.0"
+
+[[package]]
+name = "memento"
+version = "0.1.0"
+
+[[package]]
+name = "null"
+version = "0.1.0"
+
+[[package]]
+name = "observer"
+version = "0.1.0"
+
+[[package]]
 name = "prototype"
 version = "0.1.0"
 
@@ -52,4 +76,20 @@ version = "0.1.0"
 
 [[package]]
 name = "singleton"
+version = "0.1.0"
+
+[[package]]
+name = "state"
+version = "0.1.0"
+
+[[package]]
+name = "strategy"
+version = "0.1.0"
+
+[[package]]
+name = "template"
+version = "0.1.0"
+
+[[package]]
+name = "visitor"
 version = "0.1.0"
