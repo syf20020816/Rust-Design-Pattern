@@ -2,5 +2,5 @@
 members = [
     "singleton", "factory", "builder", "prototype", "adapter", "bridge", "filter", "composite", "decorator", "facade",
     "flyweight", "proxy", "chain", "command", "iter", "mediator", "memento", "observer", "state", "null", "strategy",
-    "template", "visitor"
+    "template", "visitor","interpreter"
 ]
