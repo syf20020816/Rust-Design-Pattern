@@ -1,3 +1,11 @@
+mod lib;
+
+use crate::lib::{Memento, CareTaker, Originator};
+
 fn main() {
-    println!("Hello, world!");
+    let mut caretaker = CareTaker::new(Memento::new());
+    caretaker.store(Originator::new(1, "version1"));
+    dbg!(&caretaker);
+    let res = caretaker.recover(0);
+    dbg!(res);
 }
