@@ -16,5 +16,5 @@
 //! ```
 
 pub struct Vector{
-    f:Vec<>
+
 }
